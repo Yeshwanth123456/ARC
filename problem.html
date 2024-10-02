@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reflect on your mental health challenges and gain clarity.">
+    <title>Reflect on Your Problem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Reflect on Your Problem</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="problem.html">Reflect</a></li>
+            <li><a href="vision.html">Set Vision</a></li>
+            <li><a href="skills.html">Life Skills</a></li>
+            <li><a href="daily_routine.html">Daily Routine</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h2>Understand Your Problem</h2>
+    <p>Writing about your problems can help you clarify your thoughts and get to the core of what you're struggling with. Take a few moments to describe your mental health challenges in the box below. Try to be as honest and thorough as possible—this will help you understand your problem better and identify actionable steps.</p>
+
+    <form action="submit_problem.php" method="POST">
+        <label for="problem_description">Describe your problem:</label>
+        <textarea id="problem_description" name="problem_description" rows="10" placeholder="Write your thoughts here..." required></textarea>
+
+        <label for="clarity">After writing, do you feel you understand your problem better?</label>
+        <select id="clarity" name="clarity" required>
+            <option value="">Select an option</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="not_sure">Not sure</option>
+        </select>
+
+        <button type="submit">Submit Reflection</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mental Health Support for Students</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Your Life Vision</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Set Your Life Vision</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="problem.html">Reflect</a></li>
+            <li><a href="vision.html">Set Vision</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h2>Define Your Vision for Life</h2>
+    <p>Setting a clear life vision is crucial for direction and purpose. Here, you’ll define your short- and long-term goals, including personal, professional, and relationship aims. Start by writing down your vision for the future, and we’ll help you break it down.</p>
+
+    <form action="submit_vision.php" method="POST">
+        <label for="life_vision">What is your vision for life?</label>
+        <textarea id="life_vision" name="life_vision" rows="8" placeholder="Describe your vision for your life here..."></textarea>
+
+        <h3>Short-Term Goals</h3>
+        <p>These are goals you want to accomplish within the next 1-2 years.</p>
+        <label for="short_term_goals">Your short-term goals:</label>
+        <textarea id="short_term_goals" name="short_term_goals" rows="6" placeholder="Write your short-term goals here..."></textarea>
+
+        <h3>Long-Term Goals</h3>
+        <p>These are the goals that may take 5-10 years or more to achieve. Think about where you want to be in the long run.</p>
+        <label for="long_term_goals">Your long-term goals:</label>
+        <textarea id="long_term_goals" name="long_term_goals" rows="6" placeholder="Write your long-term goals here..."></textarea>
+
+        <h3>Personal, Professional, and Relationship Goals</h3>
+        <p>List down your key goals in these areas to focus your efforts:</p>
+        <label for="personal_goals">Personal Goals:</label>
+        <input type="text" id="personal_goals" name="personal_goals" placeholder="Your personal goals...">
+
+        <label for="professional_goals">Professional Goals:</label>
+        <input type="text" id="professional_goals" name="professional_goals" placeholder="Your professional goals...">
+
+        <label for="relationship_goals">Relationship Goals:</label>
+        <input type="text" id="relationship_goals" name="relationship_goals" placeholder="Your relationship goals...">
+
+        <button type="submit">Save Your Vision</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mental Health Support for Students</p>
+</footer>
+
+</body>
+</html>
